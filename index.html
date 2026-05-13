@@ -154,6 +154,13 @@
             margin-bottom: 1rem;
             color: #667eea;
         }
+        .about-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 8px solid #667eea;
+    object-fit: cover;
+}
 
         /* Skills */
         .skills-grid {
@@ -416,12 +423,15 @@
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-img">
-                <i class="fas fa-user"></i>
-            </div>
+             <img src="images/jpg.png" alt="Profile Image">            
+             </div>
             <div class="about-text">
                 <h3>Full Stack Developer</h3>
                 <p>I'm a passionate Full Stack Developer with BCA (2025) from a reputed institution. I love turning complex problems into simple, beautiful, and intuitive designs. My goal is to bring your vision to life through innovative web solutions.</p>
                 <p>With hands-on experience from internships at Publicis Sapient (Frontend Web Development) and IBM (Web Development), I'm equipped with modern technologies and best practices to deliver high-quality web applications.</p>
+                  <a href="resume/Jyoti_Sharma_Resume_3.pdf" download class="btn">
+    Download Resume
+</a>
             </div>
         </div>
     </section>
@@ -488,37 +498,71 @@
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-img">
-                    <i class="fas fa-laptop-code"></i>
+                    <i class="fas fa-user-circle"></i>
                 </div>
                 <div class="project-content">
-                    <h3>E-Commerce Platform</h3>
-                    <p>Full stack e-commerce website with React, Node.js, MongoDB and Stripe payment integration</p>
-                    <div style="margin-top: 1rem;">
-                        <span class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Live Demo</span>
-                        <span class="btn" style="padding: 8px 20px; font-size: 0.9rem; background: #6c757d; margin-left: 10px;">GitHub</span>
-                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Persnal portfolio website using HTML , CSS, JavaScript with responsive design and morden UI.</p>
+                     <div style="margin-top: 1rem;">
+
+    <a href="https://jyotikasha08-stack.github.io/portfolio-2/" 
+       target="_blank" 
+       class="btn"
+       style="padding: 8px 20px; font-size: 0.9rem;">
+       Live Demo
+    </a>
+
+    <a href="https://github.com/jyotikasha08-stack/portfolio-2.git" 
+       target="_blank" 
+       class="btn"
+       style="padding: 8px 20px; font-size: 0.9rem; background: #6c757d; margin-left: 10px;">
+       GitHub
+    </a>
+
+</div>
                 </div>
             </div>
             <div class="project-card">
                 <div class="project-img">
-                    <i class="fas fa-tasks"></i>
+                    <i class="fas fa-gamepad"></i>
+
                 </div>
                 <div class="project-content">
-                    <h3>Task Management App</h3>
-                    <p>Real-time task manager built with React, Firebase and drag-and-drop functionality</p>
-                    <div style="margin-top: 1rem;">
-                        <span class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Live Demo</span>
-                        <span class="btn" style="padding: 8px 20px; font-size: 0.9rem; background: #6c757d; margin-left: 10px;">GitHub</span>
-                    </div>
-                </div>
+                    <h3>Rock Ppaer Scissor game</h3>
+                    <p>Interactive Rock Paper Scissors game using HTML, CSS and JavaScript
+            with score tracking and dynamic gameplay.
+        </p>
+                     <div style="margin-top: 1rem;">
+
+    <a href="https://jyotikasha08-stack.github.io/rock-paper-scissor--Game/"
+       target="_blank"
+       class="btn"
+       style="padding: 8px 20px; font-size: 0.9rem;">
+       Live Demo
+    </a>
+
+    <a href="https://github.com/jyotikasha08-stack/rock-paper-scissor--Game.git"
+       target="_blank"
+       class="btn"
+       style="padding: 8px 20px;
+              font-size: 0.9rem;
+              background: #6c757d;
+              margin-left: 10px;">
+       GitHub
+    </a>
+
+</div>
+                </div> 
             </div>
             <div class="project-card">
                 <div class="project-img">
-                    <i class="fas fa-blog"></i>
+                    <i class="fas fa-times-circle"></i>
                 </div>
                 <div class="project-content">
-                    <h3>Blog Platform</h3>
-                    <p>Dynamic blog with user authentication, rich text editor and responsive design</p>
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p> Interactive Tic Tac Toe game built using HTML, CSS and JavaScript
+            with winner detection and restart functionality.
+       </p>
                     <div style="margin-top: 1rem;">
                         <span class="btn" style="padding: 8px 20px; font-size: 0.9rem;">Live Demo</span>
                         <span class="btn" style="padding: 8px 20px; font-size: 0.9rem; background: #6c757d; margin-left: 10px;">GitHub</span>
@@ -557,5 +601,9 @@
                 <div class="form-group">
                     <input type="text" placeholder="Subject">
                 </div>
-                <div class="form-group">
+                <body class="form-group">
                     <textarea rows="5" placeholder="Your Message..." required></textarea>
+                    <button>subbmit</button>
+              
+                </body>
+                </form>              
